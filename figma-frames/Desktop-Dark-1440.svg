@@ -1,0 +1,374 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="4320" viewBox="0 0 1440 4320" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Background -->
+  <rect id="Desktop - Dark (1440px)" width="1440" height="4320" fill="#09090F"/>
+
+  <!-- ================= SECTION 1: HEADER (72px) ================= -->
+  <g id="01-Header">
+    <rect width="1440" height="72" fill="#151521" stroke="#272735" stroke-width="1"/>
+    <rect x="120" y="18" width="36" height="36" rx="10" fill="url(#brandGrad)"/>
+    <text x="168" y="42" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="20" font-weight="800">NEXUS</text>
+    <text x="242" y="42" fill="#818CF8" font-family="Manrope, Inter, sans-serif" font-size="20" font-weight="600">Workspace</text>
+
+    <!-- Nav Links -->
+    <g id="Nav-Links" font-family="Inter, sans-serif" font-size="15" font-weight="600" fill="#A1A1AA">
+      <text x="560" y="41">Tariffs</text>
+      <text x="645" y="41">Location</text>
+      <text x="745" y="41">Amenities</text>
+      <text x="855" y="41">Events</text>
+    </g>
+
+    <!-- Header Right Actions -->
+    <rect x="1070" y="16" width="110" height="40" rx="12" fill="#0E0E17" stroke="#272735" stroke-width="1"/>
+    <text x="1125" y="41" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Dark Mode</text>
+
+    <rect x="1196" y="16" width="124" height="40" rx="12" fill="url(#btnGrad)"/>
+    <text x="1258" y="41" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="600">Test Day</text>
+  </g>
+
+  <!-- ================= SECTION 2: HERO SECTION ================= -->
+  <g id="02-Hero-Section" transform="translate(0, 72)">
+    <rect width="1440" height="680" fill="#09090F"/>
+    <line x1="0" y1="680" x2="1440" y2="680" stroke="#272735" stroke-width="1"/>
+
+    <!-- Left Content (7 Columns: 120px to 796px) -->
+    <g id="Hero-Content" transform="translate(120, 96)">
+      <rect width="290" height="32" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <circle cx="18" cy="16" r="4" fill="#22D3EE"/>
+      <text x="32" y="21" fill="#818CF8" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1">THE FUTURE OF WORK STARTS HERE</text>
+
+      <text x="0" y="96" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="56" font-weight="800">Space for Productive</text>
+      <text x="0" y="162" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="56" font-weight="800">Work <tspan fill="#818CF8">24/7</tspan></text>
+
+      <text x="0" y="215" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="18" font-weight="400">A premium coworking space designed for developers, creators,</text>
+      <text x="0" y="243" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="18" font-weight="400">and ambitious teams. Work smarter, connect faster, and build</text>
+      <text x="0" y="271" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="18" font-weight="400">something extraordinary.</text>
+
+      <!-- CTA Buttons -->
+      <rect x="0" y="308" width="210" height="52" rx="12" fill="url(#btnGrad)"/>
+      <text x="105" y="340" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="16" font-weight="600">Explore Locations</text>
+
+      <rect x="226" y="308" width="160" height="52" rx="12" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <text x="306" y="340" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="600">View Tariffs</text>
+
+      <!-- Stats Bar -->
+      <g id="Hero-Stats" transform="translate(0, 396)">
+        <rect width="650" height="84" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+        <text x="28" y="38" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="800">24/7 Access</text>
+        <text x="28" y="60" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Always Open</text>
+
+        <line x1="205" y1="20" x2="205" y2="64" stroke="#272735" stroke-width="1"/>
+        <text x="230" y="38" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="800">High-Speed Internet</text>
+        <text x="230" y="60" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">10 Gbps Fiber</text>
+
+        <line x1="445" y1="20" x2="445" y2="64" stroke="#272735" stroke-width="1"/>
+        <text x="470" y="38" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="800">100+ Workspaces</text>
+        <text x="470" y="60" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Ergonomic Setups</text>
+      </g>
+    </g>
+
+    <!-- Right Showcase Card (5 Columns: 824px to 1320px) -->
+    <g id="Hero-Visual-Card" transform="translate(824, 110)">
+      <rect width="496" height="460" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="1" y="1" width="494" height="400" rx="19" fill="#0E0E17"/>
+      <text x="248" y="205" text-anchor="middle" fill="#818CF8" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">[Hero Photo: images/hero-workspace.webp]</text>
+      <circle cx="28" cy="430" r="5" fill="#10B981"/>
+      <text x="42" y="435" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Almaty Tech Hub вЂў Zone A</text>
+      <text x="472" y="435" text-anchor="end" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Ultrawide 4K Displays вЂў Wi-Fi 6E</text>
+    </g>
+  </g>
+
+  <!-- ================= SECTION 3: TARIFFS ================= -->
+  <g id="03-Tariffs-Section" transform="translate(0, 752)">
+    <rect width="1440" height="760" fill="#09090F"/>
+    <rect x="650" y="64" width="140" height="28" rx="14" fill="#0E0E17" stroke="#272735" stroke-width="1"/>
+    <text x="720" y="83" text-anchor="middle" fill="#22D3EE" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">PRICING PLANS</text>
+    <text x="720" y="136" text-anchor="middle" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="42" font-weight="800">Find Your Perfect Workspace</text>
+    <text x="720" y="172" text-anchor="middle" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="18">Flexible plans designed for individuals, professionals, and growing teams.</text>
+
+    <!-- Card 1: Hot Desk -->
+    <g id="Tariff-Card-1-Hot-Desk" transform="translate(120, 220)">
+      <rect width="381" height="470" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <text x="36" y="52" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="24" font-weight="800">Hot Desk</text>
+      <text x="36" y="80" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Flexible workspace for freelancers and remote</text>
+      <text x="36" y="100" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">professionals.</text>
+      <text x="36" y="152" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="36" font-weight="800">в‚ё4,000 <tspan fill="#A1A1AA" font-size="15" font-weight="500">/ day</tspan></text>
+      <line x1="36" y1="174" x2="345" y2="174" stroke="#272735" stroke-width="1"/>
+      <g font-family="Inter, sans-serif" font-size="15" fill="#F8FAFC" transform="translate(36, 206)">
+        <text x="0" y="0">вњ“  Flexible seating</text>
+        <text x="0" y="30">вњ“  High-speed Wi-Fi</text>
+        <text x="0" y="60">вњ“  Coffee and tea</text>
+        <text x="0" y="90">вњ“  Shared lounge</text>
+        <text x="0" y="120">вњ“  Power outlets</text>
+        <text x="0" y="150">вњ“  Community access</text>
+      </g>
+      <rect x="36" y="392" width="309" height="48" rx="12" fill="#0E0E17" stroke="#272735" stroke-width="1"/>
+      <text x="190" y="421" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">Choose Plan</text>
+    </g>
+
+    <!-- Card 2: Fixed Desk (Most Popular) -->
+    <g id="Tariff-Card-2-Fixed-Desk" transform="translate(529, 208)">
+      <rect width="381" height="482" rx="20" fill="#151521" stroke="#818CF8" stroke-width="2"/>
+      <rect x="235" y="-14" width="120" height="28" rx="14" fill="url(#brandGrad)"/>
+      <text x="295" y="4" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="800">MOST POPULAR</text>
+      <text x="36" y="52" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="24" font-weight="800">Fixed Desk</text>
+      <text x="36" y="80" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Your personal workspace in a productive</text>
+      <text x="36" y="100" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">professional environment.</text>
+      <text x="36" y="152" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="36" font-weight="800">в‚ё65,000 <tspan fill="#A1A1AA" font-size="15" font-weight="500">/ month</tspan></text>
+      <line x1="36" y1="174" x2="345" y2="174" stroke="#272735" stroke-width="1"/>
+      <g font-family="Inter, sans-serif" font-size="15" fill="#F8FAFC" transform="translate(36, 206)">
+        <text x="0" y="0">вњ“  Dedicated desk</text>
+        <text x="0" y="30">вњ“  24/7 access</text>
+        <text x="0" y="60">вњ“  High-speed internet</text>
+        <text x="0" y="90">вњ“  Personal storage</text>
+        <text x="0" y="120">вњ“  Meeting room discounts</text>
+        <text x="0" y="150">вњ“  Printing services</text>
+      </g>
+      <rect x="36" y="400" width="309" height="48" rx="12" fill="url(#btnGrad)"/>
+      <text x="190" y="429" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="15" font-weight="600">Choose Plan</text>
+    </g>
+
+    <!-- Card 3: Team Office -->
+    <g id="Tariff-Card-3-Team-Office" transform="translate(939, 220)">
+      <rect width="381" height="470" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <text x="36" y="52" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="24" font-weight="800">Team Office</text>
+      <text x="36" y="80" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Private office solutions for ambitious teams</text>
+      <text x="36" y="100" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">and startups.</text>
+      <text x="36" y="152" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="36" font-weight="800">в‚ё180,000 <tspan fill="#A1A1AA" font-size="15" font-weight="500">/ month</tspan></text>
+      <line x1="36" y1="174" x2="345" y2="174" stroke="#272735" stroke-width="1"/>
+      <g font-family="Inter, sans-serif" font-size="15" fill="#F8FAFC" transform="translate(36, 206)">
+        <text x="0" y="0">вњ“  Private office</text>
+        <text x="0" y="30">вњ“  24/7 access</text>
+        <text x="0" y="60">вњ“  Team meeting spaces</text>
+        <text x="0" y="90">вњ“  Secure storage</text>
+        <text x="0" y="120">вњ“  Business amenities</text>
+        <text x="0" y="150">вњ“  Priority support</text>
+      </g>
+      <rect x="36" y="392" width="309" height="48" rx="12" fill="#0E0E17" stroke="#272735" stroke-width="1"/>
+      <text x="190" y="421" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">Choose Plan</text>
+    </g>
+  </g>
+
+  <!-- ================= SECTION 4: AMENITIES (4 Columns) ================= -->
+  <g id="04-Amenities-Section" transform="translate(0, 1512)">
+    <rect width="1440" height="640" fill="#0E0E17"/>
+    <line x1="0" y1="0" x2="1440" y2="0" stroke="#272735" stroke-width="1"/>
+    <line x1="0" y1="640" x2="1440" y2="640" stroke="#272735" stroke-width="1"/>
+
+    <text x="720" y="80" text-anchor="middle" fill="#22D3EE" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">FACILITIES &amp; PERKS</text>
+    <text x="720" y="128" text-anchor="middle" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="40" font-weight="800">Everything You Need to Do Your Best Work</text>
+    <text x="720" y="164" text-anchor="middle" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="18">Premium facilities designed to maximize productivity and comfort.</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(120, 210)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">High-Speed Wi-Fi</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Symmetrical 10 Gbps fiber &amp; Wi-Fi 6E</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">at every workstation.</text>
+    </g>
+    <g transform="translate(426, 210)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">24/7 Access</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Round-the-clock smart card and</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">biometric entry.</text>
+    </g>
+    <g transform="translate(732, 210)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">Meeting Rooms</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Soundproofed rooms equipped with</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">4K displays and audio gear.</text>
+    </g>
+    <g transform="translate(1038, 210)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">Free Coffee</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Unlimited specialty Arabica coffee,</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">matcha, and herbal teas.</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(120, 410)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">Gaming &amp; Relax Zone</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">PS5 consoles, acoustic nap pods,</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">and ergonomic lounge chairs.</text>
+    </g>
+    <g transform="translate(426, 410)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">Printing Services</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">High-speed color laser printing,</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">scanning, and office supplies.</text>
+    </g>
+    <g transform="translate(732, 410)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">Secure Workspace</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">24/7 security monitoring, smart</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">lockers, and encrypted VLANs.</text>
+    </g>
+    <g transform="translate(1038, 410)">
+      <rect width="282" height="176" rx="16" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="24" y="104" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">Networking Community</text>
+      <text x="24" y="130" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Curated ecosystem of Almaty's</text>
+      <text x="24" y="150" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">engineers, designers &amp; founders.</text>
+    </g>
+  </g>
+
+  <!-- ================= SECTION 5: LOCATION ================= -->
+  <g id="05-Location-Section" transform="translate(0, 2152)">
+    <rect width="1440" height="620" fill="#09090F"/>
+    <text x="720" y="76" text-anchor="middle" fill="#22D3EE" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">ALMATY HUB</text>
+    <text x="720" y="124" text-anchor="middle" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="40" font-weight="800">Your Workspace in the Heart of Almaty</text>
+
+    <!-- Map Left (680px) -->
+    <g id="Location-Map" transform="translate(120, 176)">
+      <rect width="680" height="390" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="1" y="1" width="678" height="340" rx="19" fill="#0E0E17"/>
+      <text x="340" y="175" text-anchor="middle" fill="#818CF8" font-family="Manrope, Inter, sans-serif" font-size="18" font-weight="700">[Interactive Map: Central Almaty (43.2351, 76.9097)]</text>
+      <text x="24" y="370" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Interactive Map Preview (Demo Point: Central Almaty)</text>
+      <text x="656" y="370" text-anchor="end" fill="#818CF8" font-family="Inter, sans-serif" font-size="13" font-weight="600">Open Map in New Tab в†—</text>
+    </g>
+
+    <!-- Info Right (488px) -->
+    <g id="Location-Info-Card" transform="translate(832, 176)">
+      <rect width="488" height="390" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <text x="36" y="48" fill="#22D3EE" font-family="Inter, sans-serif" font-size="12" font-weight="700">Demonstration Location Example</text>
+      <text x="36" y="84" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="22" font-weight="800">NEXUS Workspace вЂ” Almaty Central</text>
+      <text x="36" y="124" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="700">Sample Address (Demo)</text>
+      <text x="36" y="146" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Bostandyk District, Abay Ave &amp; Manas St Area, Almaty</text>
+      <text x="36" y="190" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="700">Operating Hours</text>
+      <text x="36" y="212" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">Residents: 24/7 Access вЂў Guest Desk: 08:00 вЂ“ 21:00</text>
+      <text x="36" y="256" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="700">Contact Information (Demo)</text>
+      <text x="36" y="278" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">+7 (727) 355-01-99 вЂў hello@nexus-workspace.kz</text>
+
+      <rect x="36" y="314" width="416" height="48" rx="12" fill="url(#btnGrad)"/>
+      <text x="244" y="343" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="15" font-weight="600">Get Directions</text>
+    </g>
+  </g>
+
+  <!-- ================= SECTION 6: EVENTS ================= -->
+  <g id="06-Events-Section" transform="translate(0, 2772)">
+    <rect width="1440" height="620" fill="#0E0E17"/>
+    <line x1="0" y1="0" x2="1440" y2="0" stroke="#272735" stroke-width="1"/>
+    <text x="720" y="76" text-anchor="middle" fill="#22D3EE" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">COMMUNITY &amp; GROWTH</text>
+    <text x="720" y="124" text-anchor="middle" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="40" font-weight="800">Connect. Learn. Build.</text>
+    <text x="720" y="160" text-anchor="middle" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="18">Join a community of developers, designers, founders, and innovators.</text>
+
+    <!-- Event 1 -->
+    <g transform="translate(120, 200)">
+      <rect width="381" height="360" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="1" y="1" width="379" height="190" rx="19" fill="#09090F"/>
+      <text x="190" y="100" text-anchor="middle" fill="#818CF8" font-family="Inter, sans-serif" font-size="13" font-weight="600">[event-networking.webp]</text>
+      <text x="24" y="232" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="20" font-weight="800">Tech Networking Night</text>
+      <text x="24" y="260" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Meet local developers and startup founders.</text>
+      <rect x="24" y="294" width="333" height="44" rx="12" fill="#0E0E17" stroke="#272735" stroke-width="1"/>
+      <text x="190" y="321" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="600">Learn More</text>
+    </g>
+
+    <!-- Event 2 -->
+    <g transform="translate(529, 200)">
+      <rect width="381" height="360" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="1" y="1" width="379" height="190" rx="19" fill="#09090F"/>
+      <text x="190" y="100" text-anchor="middle" fill="#818CF8" font-family="Inter, sans-serif" font-size="13" font-weight="600">[event-ai-workshop.webp]</text>
+      <text x="24" y="232" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="20" font-weight="800">AI &amp; Machine Learning Workshop</text>
+      <text x="24" y="260" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Explore modern AI technologies with pros.</text>
+      <rect x="24" y="294" width="333" height="44" rx="12" fill="#0E0E17" stroke="#272735" stroke-width="1"/>
+      <text x="190" y="321" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="600">Learn More</text>
+    </g>
+
+    <!-- Event 3 -->
+    <g transform="translate(939, 200)">
+      <rect width="381" height="360" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <rect x="1" y="1" width="379" height="190" rx="19" fill="#09090F"/>
+      <text x="190" y="100" text-anchor="middle" fill="#818CF8" font-family="Inter, sans-serif" font-size="13" font-weight="600">[event-pitch-night.webp]</text>
+      <text x="24" y="232" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="20" font-weight="800">Startup Pitch Evening</text>
+      <text x="24" y="260" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Share ideas and connect with entrepreneurs.</text>
+      <rect x="24" y="294" width="333" height="44" rx="12" fill="#0E0E17" stroke="#272735" stroke-width="1"/>
+      <text x="190" y="321" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="600">Learn More</text>
+    </g>
+  </g>
+
+  <!-- ================= SECTION 7: BOOKING FORM ================= -->
+  <g id="07-Booking-Section" transform="translate(0, 3392)">
+    <rect width="1440" height="620" fill="#09090F"/>
+    <line x1="0" y1="0" x2="1440" y2="0" stroke="#272735" stroke-width="1"/>
+    <g id="Booking-Card" transform="translate(304, 48)">
+      <rect width="832" height="524" rx="20" fill="#151521" stroke="#272735" stroke-width="1"/>
+      <text x="416" y="54" text-anchor="middle" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="32" font-weight="800">Book Your Perfect Workspace</text>
+      <text x="416" y="84" text-anchor="middle" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="15">Reserve a meeting room or request a workspace in just a few steps.</text>
+
+      <!-- Row 1: Full Name & Email -->
+      <rect x="48" y="116" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="64" y="144" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Full Name *</text>
+      <rect x="428" y="116" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="444" y="144" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Email Address *</text>
+
+      <!-- Row 2: Phone & Zone -->
+      <rect x="48" y="182" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="64" y="210" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Contact Phone (+7 701 234 5678) *</text>
+      <rect x="428" y="182" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="444" y="210" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Zone Selection (Open / Quiet / Meeting) *</text>
+
+      <!-- Row 3: Plan & Date -->
+      <rect x="48" y="248" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="64" y="276" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Workspace Plan (Hot / Fixed / Team) *</text>
+      <rect x="428" y="248" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="444" y="276" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Reservation Date *</text>
+
+      <!-- Row 4: Start Time & End Time -->
+      <rect x="48" y="314" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="64" y="342" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Start Time (09:00) *</text>
+      <rect x="428" y="314" width="356" height="46" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="444" y="342" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">End Time (18:00) *</text>
+
+      <!-- Row 5: Message -->
+      <rect x="48" y="380" width="736" height="52" rx="12" fill="#0E0E17" stroke="#272735"/>
+      <text x="64" y="411" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Additional Message (Optional)</text>
+
+      <!-- Submit Button -->
+      <rect x="48" y="450" width="736" height="50" rx="12" fill="url(#btnGrad)"/>
+      <text x="416" y="480" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="16" font-weight="600">Submit Reservation</text>
+    </g>
+  </g>
+
+  <!-- ================= SECTION 8: FOOTER ================= -->
+  <g id="08-Footer" transform="translate(0, 4012)">
+    <rect width="1440" height="308" fill="#151521"/>
+    <line x1="0" y1="0" x2="1440" y2="0" stroke="#272735" stroke-width="1"/>
+    <text x="120" y="64" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="20" font-weight="800">NEXUS <tspan fill="#818CF8">Workspace</tspan></text>
+    <text x="120" y="96" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">A modern coworking community built for the next</text>
+    <text x="120" y="116" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">generation of innovators.</text>
+
+    <rect x="120" y="140" width="220" height="38" rx="10" fill="#0E0E17" stroke="#272735"/>
+    <text x="230" y="164" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Light Mode  |  Dark Mode</text>
+
+    <text x="540" y="64" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="15" font-weight="800">Navigation</text>
+    <text x="540" y="94" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Tariffs вЂў Location вЂў Amenities вЂў Events</text>
+
+    <text x="800" y="64" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="15" font-weight="800">Information</text>
+    <text x="800" y="94" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Resident Rules вЂў Privacy Policy вЂў Terms</text>
+
+    <text x="1080" y="64" fill="#F8FAFC" font-family="Manrope, Inter, sans-serif" font-size="15" font-weight="800">Contact</text>
+    <text x="1080" y="94" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="14">Almaty, Kazakhstan вЂў +7 (727) 355-01-99</text>
+
+    <line x1="120" y1="220" x2="1320" y2="220" stroke="#272735" stroke-width="1"/>
+    <text x="120" y="260" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">В© 2026 NEXUS Workspace. All rights reserved.</text>
+    <text x="1320" y="260" text-anchor="end" fill="#A1A1AA" font-family="Inter, sans-serif" font-size="13">IITU вЂў ICT6001 Lab Work #9</text>
+  </g>
+</svg>
